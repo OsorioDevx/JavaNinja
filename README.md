@@ -16,4 +16,4 @@ para oportunidades de estágio.
 
 ## Como executar
 Os exemplos podem ser executados diretamente pelo IntelliJ IDEA,
-utilizando o JDK configurado no projeto.
+utilizando o JDK 21 configurado no projeto.
