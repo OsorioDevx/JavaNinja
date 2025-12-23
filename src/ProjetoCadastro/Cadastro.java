@@ -1,10 +1,12 @@
+package ProjetoCadastro;
+
 import java.util.Scanner;
 
 public class Cadastro {
     public static void main(String[] args) {
         int maxUsers = 1;
 
-        System.out.println("Sitema de Cadastro de Usuários \n Digite 1 para cadastrar usuário \n Digite 2 para " +
+        System.out.println("Sitema de ProjetoCadastro.Cadastro de Usuários \n Digite 1 para cadastrar usuário \n Digite 2 para " +
                 "listar usuários \n");
 
         Scanner sc = new Scanner(System.in);
@@ -20,6 +22,7 @@ public class Cadastro {
                 System.out.println("Digite o nome do Usuário: ");
                 String username = sc.next();
                 System.out.println("Você cadastrou "+ username);
+                maxUsers++;
                 break;
 
             case 2:
@@ -29,6 +32,7 @@ public class Cadastro {
             default:
                 System.out.println("akfleakfoa");
         }
+
 
 
 
