@@ -44,6 +44,24 @@ public class RespostaDesafio {
                     break;
 
                 case 2:
+                    if (ninjasCadastrados == 0){
+                        System.out.println("Nenhum ninja encontrado");
+                    } else {
+                        System.out.println("========== Lista de Ninjas ==========");
+                        for (int i = 0; i < ninjas.length; i++) {
+                            System.out.println(ninjas[i]);
+
+                        }
+                    }
+                    break;
+
+                case 3:
+                    System.out.println("Estamos terminando o programa...Aguarde...");
+                    break;
+
+                default:
+                    System.out.println("Escolha um número válido, de 1 a 3");
+                    break;
 
 
 
