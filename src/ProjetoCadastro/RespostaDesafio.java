@@ -36,7 +36,6 @@ public class RespostaDesafio {
                         // Somando mais um ninja na minha lista
                         ninjasCadastrados++;
                         System.out.println("Ninja " + nomeNinja + " cadastrado com sucesso");
-                        System.out.println("["+ninjasCadastrados+"]");
 
                     } else {
                         System.out.println("A lista de ninjas esta cheia, impossivel cadastrar um novo ninja");
