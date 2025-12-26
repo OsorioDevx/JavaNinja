@@ -1,8 +1,8 @@
-package NivelIntermediario;
+package ProjetoCadastro;
 
 import java.util.Scanner;
 
-public class Main {
+public class RespostaDesafio {
     public static void main(String[] args) {
 
         //Entrada de dados
@@ -35,7 +35,8 @@ public class Main {
                         ninjas[ninjasCadastrados] = nomeNinja;
                         // Somando mais um ninja na minha lista
                         ninjasCadastrados++;
-                        System.out.println("Ninja cadastrado com sucesso");
+                        System.out.println("Ninja " + nomeNinja + " cadastrado com sucesso");
+                        System.out.println("["+ninjasCadastrados+"]");
 
                     } else {
                         System.out.println("A lista de ninjas esta cheia, impossivel cadastrar um novo ninja");
@@ -43,30 +44,12 @@ public class Main {
                     break;
 
                 case 2:
-                    if (ninjasCadastrados == 0) {
-                        System.out.println("Nenhum ninja encontrado");
-                    } else {
-                        System.out.println("============ Lista de ninjas ============");
-                        for (int i = 0; i < ninjas.length ; i++) {
-                            System.out.println(ninjas[i]);
-                        }
-                    }
-                    break;
 
-                case 3:
-                    System.out.println("Estamos saindo o programa...Aguarde");
-                    break;
 
-                default:
-                    System.out.println("Essa opcao nao é valida.");
-                    break;
+
             }
 
+
         }
-
-
-
     }
 }
-
-
