@@ -1,4 +1,4 @@
-package Conditions;
+package Iniciante.Conditions;
 
 public class Array2D {
     public static void main(String[] args) {

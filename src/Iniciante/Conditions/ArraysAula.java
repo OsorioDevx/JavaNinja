@@ -1,4 +1,4 @@
-package Conditions;
+package Iniciante.Conditions;
 
 public class ArraysAula {
     public static void main(String[] args) {

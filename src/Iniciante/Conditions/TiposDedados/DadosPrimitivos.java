@@ -1,4 +1,4 @@
-package TiposDedados;
+package Iniciante.Conditions.TiposDedados;
 
 public class DadosPrimitivos {
     public static void main(String[] args) {

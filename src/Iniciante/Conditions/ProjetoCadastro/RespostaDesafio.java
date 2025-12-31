@@ -1,4 +1,4 @@
-package ProjetoCadastro;
+package Iniciante.Conditions.ProjetoCadastro;
 
 import java.util.Scanner;
 
