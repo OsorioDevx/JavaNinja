@@ -5,7 +5,10 @@ public class Main {
         /*No trabalho você não vai ficar criando variáveis na Main, você
         * trabalha com objetos!!*/
         System.out.println("Inicializando Objetos");
-        System.out.println("========== Sasuke ==========");
+
+
+
+        System.out.println("===================================");
         Ninja sasuke= new Ninja();
 
         //atributos do meu objeto
@@ -20,11 +23,12 @@ public class Main {
         System.out.println(boasVindasSasuke);
         sasuke.sharinganAtivado();
 
-
-
         System.out.println(sasuke.nome + "\n" + sasuke.idade + "\n" + sasuke.aldeia);
 
-        System.out.println("========== Naruto ==========");
+
+
+
+        System.out.println("===================================");
 
         Ninja naruto = new Ninja();
 
@@ -42,7 +46,7 @@ public class Main {
 
 
 
-        System.out.println("========== Sakura ==========");
+        System.out.println("===================================");
 
         /*Ctrl + botão esquerdo leva direto para a classe*/
         Ninja sakura = new Ninja();
@@ -54,6 +58,19 @@ public class Main {
 
         String boasVindasSakura = sakura.BoasVindas();
         System.out.println(boasVindasSakura);
+
+
+
+        Ninja hinata = new Ninja();
+
+        System.out.println("===================================");
+        hinata.nome = "Hinata Hyuga";
+        hinata.idade = 17;
+        hinata.aldeia = "Aldeia da Folha";
+        System.out.println(hinata.nome + "\n" + hinata.idade + "\n" + hinata.aldeia);
+
+        String boasVindasHinata =  hinata.BoasVindas();
+        System.out.println(boasVindasHinata);
 
 
 
