@@ -9,9 +9,11 @@ public class Main {
 
 
         System.out.println("===================================");
-        Ninja sasuke= new Ninja();
+        Uchiha sasuke = new Uchiha();
 
-        //atributos do meu objeto
+        /*Atributos do meu objeto e agora objeto extendido, classe Uchiha é filha e classe Ninja é a classe mãe
+        * eu herdei o nome, idade e aldeia da mãe porque todos os ninjas tem essas características e tenho também
+        * as características só dos UCHIHAS que no caso é o Sharingan da classe Uchiha*/
         sasuke.nome = "Sasuke Uchiha";
         sasuke.idade = 18;
         sasuke.aldeia = "Aldeia da Folha";
@@ -30,13 +32,14 @@ public class Main {
 
         System.out.println("===================================");
 
-        Ninja naruto = new Ninja();
+        Uzumaki naruto = new Uzumaki();
 
         naruto.nome= "Naruto Uzumaki";
         naruto.idade = 16;
         naruto.aldeia= "Aldeia da Folha";
         System.out.println(naruto.nome + "\n" + naruto.idade + "\n" + naruto.aldeia);
 
+        naruto.chakraInfinito();
         String boasVindasNaruto = naruto.BoasVindas();
         int tempoRestanteHokage = naruto.AnosHogake(50);
 
@@ -49,28 +52,29 @@ public class Main {
         System.out.println("===================================");
 
         /*Ctrl + botão esquerdo leva direto para a classe*/
-        Ninja sakura = new Ninja();
+        Haruno sakura = new Haruno();
 
         sakura.nome= "Sakura Haruno";
         sakura.idade = 17;
         sakura.aldeia= "Aldeia da Folha";
         System.out.println(sakura.nome + "\n" + sakura.idade + "\n" + sakura.aldeia);
-
-        String boasVindasSakura = sakura.BoasVindas();
-        System.out.println(boasVindasSakura);
+        sakura.curaHaruno();
 
 
 
-        Ninja hinata = new Ninja();
+        Hyuga hinata = new Hyuga();
 
         System.out.println("===================================");
         hinata.nome = "Hinata Hyuga";
-        hinata.idade = 17;
+        hinata.idade = 18;
         hinata.aldeia = "Aldeia da Folha";
         System.out.println(hinata.nome + "\n" + hinata.idade + "\n" + hinata.aldeia);
 
         String boasVindasHinata =  hinata.BoasVindas();
         System.out.println(boasVindasHinata);
+        String podeUsarByakugan = hinata.byakugan();
+        System.out.println(podeUsarByakugan);
+
 
 
 
