@@ -1,5 +1,7 @@
 package Intermediario.Desafio1;
 
+import Intermediario.Boruto;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Programa de Gerenciamento de Ninjas da Folha");
@@ -15,6 +17,17 @@ public class Main {
         sasuke.habilidadeEspecial = "Sharingan";
 
         sasuke.mostrarInformacoes();
+
+        System.out.println("====================");
+        Hyuga hinata = new Hyuga();
+        hinata.nome = "Hinata Hyuga";
+        hinata.mostrarInformacoes();
+        hinata.byakugan();
+
+        System.out.println("====================");
+
+        Boruto boruto = new Boruto();
+        boruto.
 
 
 

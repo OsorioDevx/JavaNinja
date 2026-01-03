@@ -6,4 +6,5 @@ public class Uzumaki extends Ninja{
         System.out.println("Chakra Infinito!!!");
 
     }
+
 }
