@@ -72,8 +72,7 @@ public class Main {
 
         String boasVindasHinata =  hinata.BoasVindas();
         System.out.println(boasVindasHinata);
-        String podeUsarByakugan = hinata.byakugan();
-        System.out.println(podeUsarByakugan);
+        hinata.byakuganAtivado();
 
 
 

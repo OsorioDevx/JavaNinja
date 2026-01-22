@@ -1,7 +1,5 @@
 package Intermediario.Desafio1;
 
-import Intermediario.Boruto;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Programa de Gerenciamento de Ninjas da Folha");
@@ -26,8 +24,7 @@ public class Main {
 
         System.out.println("====================");
 
-        Boruto boruto = new Boruto();
-        boruto.
+
 
 
 

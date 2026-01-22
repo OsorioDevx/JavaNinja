@@ -1,12 +1,8 @@
 package Intermediario;
 
 public class Hyuga extends Ninja {
-    public String byakugan(){
+    public void byakuganAtivado(){
 
-        if(idade > 16){
-            System.out.println("EU posso usar o Byakugan");
-
-        }
-        return "";
+        System.out.println("Meu nome é "+nome+ ", eu sou do clã Hyuga e ativei o Byakugan");
     }
 }
