@@ -1,6 +1,6 @@
 package Construtores;
 
-public class Hokage {
+public abstract class Hokage {
     String nome;
     int ordem;
     boolean vivoOuNao;

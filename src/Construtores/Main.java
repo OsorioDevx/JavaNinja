@@ -3,9 +3,24 @@ package Construtores;
 public class Main {
     public static void main(String[] args) {
 
-        Hokage hashirama = new Hokage("Hashirama Senju");
+
+        Senju hashirama = new Senju("Hashirama");
+
+
+
+
+
+
+
+
+
+
+
+        /*Hokage hashirama = new Hokage("Hashirama Senju");
         hashirama.ordem = 1;
         hashirama.vivoOuNao= false;
+
+
 
         Hokage tobirama = new Hokage("Tobirama Senju");
         System.out.println(tobirama.nome);
@@ -16,7 +31,7 @@ public class Main {
         Hokage minato = new Hokage("Minato Namikaze",4,false);
         System.out.println();
 
-        Hokage tsunade = new Hokage("Tsunade", 5,true, "Senju", 300, 50000.00, 1.70);
+        Hokage tsunade = new Hokage("Tsunade", 5,true, "Senju", 300, 50000.00, 1.70);*/
 
 
 

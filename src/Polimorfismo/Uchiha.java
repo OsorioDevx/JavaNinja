@@ -7,4 +7,5 @@ public class Uchiha extends PoliNinja{
 
         System.out.println("Meu nome é: "+nome+ " e essa é minha habilidade especial Uchiha, um ataque de FOGO");
     }
+
 }
